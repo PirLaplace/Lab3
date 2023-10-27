@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+}
+
+.container {
+    background: #00ff00;
+    width: 1000px;
+    height: 800px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.header {
+    background: #239ec6;
+    width: 100%;
+    height: 200px;
+    line-height: 150px;
+}
+
+.left-menu {
+    background: #9191fb;
+    width: 50%;
+    height: 450px;
+    float: left;
+    line-height: 500px;
+}
+
+.content {
+    background: #ade4f6;
+    width: 50%;
+    height: 450px;
+    float: left;
+    line-height: 500px;
+}
+
+.footer {
+    background: #239ec6;
+    clear: both;
+    width: 100%;
+    height: 150px;
+    line-height: 200px;
+}
+
+
+.container2 {
+    background: #00ff00;
+    width: 1000px;
+    height: 800px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header2, .main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header2 {
+    background: #239ec6;
+    width: 100%;
+    height: 200px;
+}
+
+.left-menu2 {
+    background: #9191fb;
+    width: 50%;
+    height: 450px;
+    text-align: center;
+    line-height: 500px;
+}
+
+.content2 {
+    background: #ade4f6;
+    width: 50%;
+    height: 450px;
+    text-align: center;
+    line-height: 500px;
+}
+
+.footer2 {
+    background: #239ec6;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    line-height: 200px;
+}
